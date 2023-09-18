@@ -5,7 +5,7 @@ const clearButton = document.querySelector('.button button');
 
 // Function to update the temperature values
 function updateTemperatures(celsiusValue) {
-    const fahrenheitValue = (celsiusValue * 9/5)+32;
+    const fahrenheitValue = (celsiusValue * 9/5) + 32;
     const kelvinValue = celsiusValue + 273.15;
 
     fahrenheitInput.value = fahrenheitValue.toFixed(2);
